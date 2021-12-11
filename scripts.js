@@ -1,6 +1,6 @@
 window.onload = function() {
   
-  document.querySelector("#musubiHeader").classList.add ("tp6");
+  document.querySelector("#crinkleHeader").classList.add ("tp6");
   
   document.querySelector("#ingredients").onclick = function() {
     document.querySelector("#ingredients ul").classList.toggle("showMe");
@@ -14,7 +14,7 @@ window.onload = function() {
     document.querySelector("#directions ol").classList.toggle("showMe");
   }
   
-  document.querySelector("#musubiHeader").onclick = function(){
+  document.querySelector("#crinkleHeader").onclick = function(){
     this.classList.toggle("tp6");
   }
   
